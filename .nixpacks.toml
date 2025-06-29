@@ -1,0 +1,5 @@
+[packages]
+apt = ["libgl1"]
+
+[phases.setup]
+nixPkgs = ["mesa", "glxinfo"]
